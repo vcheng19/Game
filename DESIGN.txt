@@ -1,8 +1,3 @@
-its genre (from the assignment page or one you have made up)
-its consumer tempting, ear popping, name and a brief back story (or the game's epic challenge)
-its goal (how to win the game or advance levels)
-its basic mechanics (how to play the game)
-how its levels or modes differ
 
 Genre:
 	I wanted to try a Multiway Scroller (kind of how like agar.io is) but I am not sure how I would implement that yet; so the current plan is just a Top Down Scrolling Shooter, but if I have time I want to try switching that to the Multiway Scroller if possible.
@@ -13,7 +8,8 @@ Back Story:
 Goal:
 	The goal is to catch all the pizza boxes by throwing pizza boxes at them.
 	The player will advance to the next level if they catch all the pizzas.
-	The game will end when time is up, or when the player runs out of lives.
+	The game is won when the boss pizza is defeated.
+	The game ends when time is up, or when the player runs out of lives.
 Game Play:
 	X to shoot pizza boxes
 	Arrow Keys to move
