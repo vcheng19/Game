@@ -5,7 +5,7 @@ Name: Virginia Cheng
 
 Date started: 20 January 2016
 
-Date finished:23 January 2016
+Date finished: 23 January 2016
 
 Hours worked: 36ish
 
@@ -13,13 +13,13 @@ Resources used: the ExampleGame from Prof. Duvall, docs.oracle, Spongebob pictur
 
 Main class file: Main.java
 
-Data (non Java) files needed:angrySponge.png, background.png, boss.png, gameover.png, hearts.png, nextlevel.png, pizza.png, pizzabox.png, spongebob1.png, start.png, win.png
+Data (non Java) files needed: angrySponge.png, background.png, boss.png, gameover.png, hearts.png, nextlevel.png, pizza.png, pizzabox.png, spongebob1.png, start.png, win.png
 
 How to play the game: X to shoot, arrow keys to move
-					  You move onto the next level when all the little pizzas are caught
-					  You win the game when you beat the boss.
-					  Game Over when you either run out of lives or run out of time.
-					  You cannot shoot when you've just been hit or if you are currently shooting.
+		      You move onto the next level when all the little pizzas are caught
+		      You win the game when you beat the boss.
+		      Game Over when you either run out of lives or run out of time.
+		      You cannot shoot when you've just been hit or if you are currently shooting.
 
 Keys/Mouse input: X to shoot, arrow keys to move
 
