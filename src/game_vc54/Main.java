@@ -20,7 +20,7 @@ public class Main extends Application{
 		myGame = new WannaPizzaMe();
 		s.setTitle(myGame.getTitle());
 		
-		Scene scene = myGame.makeScene1(SIZE,SIZE);
+		Scene scene = myGame.makeScene(SIZE);
 		s.setScene(scene);
         s.show();     
         
