@@ -30,4 +30,4 @@ Known bugs: Sometimes the pizza box does not disappear (but I think that might j
 
 Extra features:
 
-Impressions/Suggestions: I thought the project was interesting; however, I wish javafx had like a Camera that shows the player only part of the screen.
+Impressions/Suggestions: In the future, I would like to include a restart button so that you can restart rather than having to close the game and reopen it everytime. I would also like to make the players movement smoother and make it so the user could see which way the player was facing (like how pokemon and zelda work); as well as making it so the pizzas could drop power ups such as coins or hearts.
