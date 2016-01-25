@@ -9,5 +9,33 @@ I did not commit at all until I had finished the code, so I went from nothing in
 I think I worked pretty effectively on the project. There are some design aspects that I would like to add if I had more time, so if anything I wish that I started the project earlier. I also think that I overestimated the size of this project. I thought it was going to be a lot harder than it was because I let everyone else stress me out about it and because JavaFX was a new and foreign thing to me. In the future, I think I should approach it with a much more level head rather than stressing it. The part of my code that required the most editing was near the end when I had to update all the booleans. Because I had to keep adding different booleans as checks in my code so that certain methods called in my step() method would not be run unless I was on a certain level of the game. To be a better designer, I need to stop putting all my code in one big method or one big class. It also took a lot of trial and error to figure out how to make the pizzas move smoothly and on the screen. After a lot of testing and parameter changing, I figured out that they moved the best by not making every step random but by having them walking the same way for X amount of steps and then randomly choosing the next direction. By habit, in my other Computer Science classes I usually would just write one method, but since it was part of the assignment for this project I had to seperate my method into multiple smaller ones; however, I only used one class which I actually did not realized until I finished the assignment. I also need to start using better variable names (which was also a first for me in this assignment since I usually use random names that are completely unrelated to the variable itself). The one part I would like to improve on my project is the organization; like I mentioned before I would prefer to have multiple classes or have the methods in my class in a more organized order.
 
 
+put this in the design section instead: I would also like to add a restart button so that when there is a game over, the player can restart rather than closing and reopening it; as well as a menu at the beginning with the backstory and the rules of the game.
+
 ###Design Review
 #####Status
+I think my code is readable, but that may be because I wrote it so I know what I was trying to do. However, I do notice some inconsistencies in my code. I know the rule for naming methods that perform an action is to have a verb and then the object, so most of my methods are named liked createPizzas() or setCoordinates(), but sometimes I did not follow that and instead had pizzaDelete() or boxMove(). I think the dependencies in my code are not very clear since I have a lot of global variables, but I also do think they are clear since a lot of methods will call other methods inside it if it is dependent on it. For example, my pizzaMove() method will call the chooseDirection() method at the beginning because it is dependant on the chooseDirection() method to choose the direction the pizza will move. I think the layout is quite consistent, every method, if statement, and for loop is indented and each method has a space in between. The code seems consistent in terms of style because I wrote all of it. I think it is easy to read and to understand what individual methods do in my code, but it may be confusing in terms of the ordering of the methods. An example of the code would be
+
+Reflect on the coding details of the project by reviewing the code.
+Is the code generally consistent in its layout, naming conventions and descriptiveness, and style?
+Is the code generally readable (i.e., does it do what you expect, does it require comments to understand)?
+Are the dependencies in the code clear and easy to find or do they exist through "back channels" (e.g., global variables, order of method call, or get methods instead of parameters)?
+Describe two pieces of code in detail:
+Describe the purpose of this code in the overall project.
+What makes this code easy (or hard) to read and understand?
+
+#####Design
+Reflect on how the program is currently organized.
+Describe the overall design of the program, without referring to specific data structures or actual code.
+As briefly as possible, describe how to add a new level to the game.
+Justify why your overall code is designed the way it is or what issues you wrestled with if you think its design is lacking in some way. Are there any assumptions or dependencies in your code that impact the overall design of the program?
+Describe two features from the assignment specification in detail:
+What classes or resources are required to implement this feature?
+Describe the design of this feature in detail (what implementation details are encapsulated? what assumptions are made? do they limit its flexibility?).
+
+#####Alternate Designs
+Reflect on alternate designs for the project based on your analysis of the current design.
+Describe two design decisions you made, or wish you had done differently, in detail:
+What alternate designs were considered?
+What are the trade-offs of the design choice (describe the pros and cons of the different designs)?
+Which would you prefer and why (it does not have to be the one that is currently implemented)?
+What are the three most important bugs that remain in the project's design or implementation?
