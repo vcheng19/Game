@@ -24,41 +24,41 @@ public class bossLevel{
 		maxLives = numLives;
 		moveTime = numTime;
 		
-    	bossPizza = bossImage;
+    		bossPizza = bossImage;
 	}
 	
-    public void moveBoss(){
-    	timeCounter++;
-    	if(timeCounter > moveTime){
-    		setCoordinates(bossPizza);
-    		timeCounter = 0;
+	public void moveBoss(){
+	 	timeCounter++;
+    		if(timeCounter > moveTime){
+    			setCoordinates(bossPizza);
+    			timeCounter = 0;
+    		}
     	}
-    }
     
 	private void setCoordinates(ImageView obj){
 		obj.setX(Math.random()*size);
 		obj.setY(Math.random()*size);
 	}
 	
-    public Group setUpLevel(Group root, ImageView myPlayer, int screenSize){
-    	size = screenSize;
-    	bossPizza.setY(size/4);
-    	bossPizza.setX(size/(4*2));
+	public Group setUpLevel(Group root, ImageView myPlayer, int screenSize){
+    		size = screenSize;
+    		bossPizza.setY(size/4);
+    		bossPizza.setX(size/(4*2));
     	
-    	myPlayer.setX(size);
-    	myPlayer.setY(size);
+    		myPlayer.setX(size);
+    		myPlayer.setY(size);
     	
-    	root.getChildren().add(bossPizza);
-    	root.getChildren().add(myPlayer);
+    		root.getChildren().add(bossPizza);
+    		root.getChildren().add(myPlayer);
     	
-    	return root;
-    }
+    		return root;
+	}
     
-    public void hitBoss(){
-    	bossLives++;
-    }
+	public void hitBoss(){
+    		bossLives++;
+    	}
     
-    public boolean isDead(){
-    	return bossLives > maxLives;
-    }
+    	public boolean isDead(){
+    		return bossLives > maxLives;
+    	}
 }
