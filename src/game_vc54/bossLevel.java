@@ -3,7 +3,7 @@
 // The purpose of this class is to take care of the final level and the boss pizza.
 // I think it is well designed because it is a simple class that only deals with one level.
 // I originally had only one class for this project, so I decided to make this a seperate class in order to make it easier to read and understand.
-// I also changed some variable names so they were more descriptive and changed the method names so they were consistently formatted with a verb first and then a noun.
+// I also changed some variable names so they were more descriptive and changed the method names so they were consistently formatted with a verb first and then the noun.
 // Like in my original code, I believe there is no duplicated code and no magic numbers.
 // The design of this class is pretty simple. It sets up the boss level, tracks how many lives the boss currently has, and determines when and where the boss moves, along with allowing the programmer to input the number of lives and the speed of the boss which makes the class more usable and versatile. 
 
